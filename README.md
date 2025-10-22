@@ -8,3 +8,5 @@ sim_MD_VACF runs molecular dynamics code to generate simulated protein data used
 fit_integral_kernel uses the simulated MD data to fit an integral kernel to be used in the GLE model. We have a choice of using a kernel with 1,2 or 3 parameters for increasingly better fits.
 
 GLE is the generalized langevin model that simulates the movement of a protein.
+
+dataread validates the model using protein data from LLNL
